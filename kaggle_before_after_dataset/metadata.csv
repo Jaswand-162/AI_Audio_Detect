@@ -1,0 +1,201 @@
+filename,label,split,before_path,after_path,text,duration
+human_083.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_083.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_083.wav,"Hello, how are you doing today?",2.52
+human_019.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_019.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_019.wav,Please remember to save your work regularly.,3.696
+human_052.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_052.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_052.wav,Would you like some coffee or tea?,2.904
+ai_034.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_034.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_034.wav,The project deadline is next Friday.,2.928
+ai_089.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_089.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_089.wav,Could you please repeat that again?,2.328
+ai_099.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_099.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_099.wav,Please remember to save your work regularly.,3.072
+ai_082.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_082.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_082.wav,Artificial intelligence is transforming technology...,3.96
+human_003.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_003.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_003.wav,"Hello, how are you doing today?",2.856
+human_042.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_042.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_042.wav,Artificial intelligence is transforming technology...,4.224
+human_068.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_068.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_068.wav,The sun rises early in the morning.,2.88
+human_015.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_015.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_015.wav,I need to finish this important report.,3.12
+human_097.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_097.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_097.wav,The mountains look beautiful this season.,3.336
+human_006.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_006.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_006.wav,Please pass the salt and pepper to me.,2.928
+ai_078.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_078.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_078.wav,Virtual reality creates amazing experiences.,3.936
+human_022.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_022.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_022.wav,Artificial intelligence is transforming technology...,4.776
+ai_075.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_075.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_075.wav,I need to finish this important report.,2.856
+human_078.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_078.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_078.wav,Virtual reality creates amazing experiences.,4.272
+ai_061.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_061.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_061.wav,The quick brown fox jumps over the lazy dog.,3.48
+ai_008.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_008.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_008.wav,The sun rises early in the morning.,2.712
+ai_026.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_026.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_026.wav,Please pass the salt and pepper to me.,2.688
+human_075.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_075.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_075.wav,I need to finish this important report.,3.12
+human_039.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_039.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_039.wav,Please remember to save your work regularly.,3.384
+human_080.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_080.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_080.wav,The concert starts at exactly eight o'clock.,3.432
+human_017.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_017.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_017.wav,The mountains look beautiful this season.,2.952
+human_054.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_054.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_054.wav,The project deadline is next Friday.,3.288
+ai_010.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_010.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_010.wav,Natural language processing helps computers unders...,4.584
+human_014.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_014.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_014.wav,The project deadline is next Friday.,3.168
+ai_011.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_011.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_011.wav,The train arrives at the station on time.,2.976
+human_041.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_041.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_041.wav,The quick brown fox jumps over the lazy dog.,3.528
+ai_077.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_077.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_077.wav,The mountains look beautiful this season.,2.76
+human_028.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_028.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_028.wav,The sun rises early in the morning.,3.288
+human_033.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_033.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_033.wav,Data science requires both skills and creativity.,4.176
+human_050.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_050.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_050.wav,Natural language processing helps computers unders...,4.848
+ai_093.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_093.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_093.wav,Data science requires both skills and creativity.,3.888
+ai_088.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_088.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_088.wav,The sun rises early in the morning.,2.712
+human_066.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_066.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_066.wav,Please pass the salt and pepper to me.,2.928
+ai_019.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_019.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_019.wav,Please remember to save your work regularly.,3.072
+human_056.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_056.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_056.wav,Programming languages evolve over time.,3.408
+human_070.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_070.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_070.wav,Natural language processing helps computers unders...,5.544
+human_059.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_059.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_059.wav,Please remember to save your work regularly.,3.12
+ai_054.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_054.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_054.wav,The project deadline is next Friday.,2.928
+ai_076.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_076.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_076.wav,Programming languages evolve over time.,3.192
+ai_062.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_062.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_062.wav,Artificial intelligence is transforming technology...,3.96
+human_086.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_086.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_086.wav,Please pass the salt and pepper to me.,2.928
+human_089.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_089.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_089.wav,Could you please repeat that again?,2.4
+human_047.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_047.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_047.wav,Voice recognition systems are improving daily.,3.552
+ai_005.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_005.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_005.wav,The weather is beautiful outside today.,2.808
+human_049.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_049.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_049.wav,Could you please repeat that again?,2.784
+human_013.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_013.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_013.wav,Data science requires both skills and creativity.,4.704
+ai_015.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_015.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_015.wav,I need to finish this important report.,2.856
+ai_043.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_043.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_043.wav,"Hello, how are you doing today?",2.448
+human_016.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_016.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_016.wav,Programming languages evolve over time.,3.84
+ai_014.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_014.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_014.wav,The project deadline is next Friday.,2.928
+human_005.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_005.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_005.wav,The weather is beautiful outside today.,3.0
+ai_021.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_021.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_021.wav,The quick brown fox jumps over the lazy dog.,3.48
+ai_025.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_025.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_025.wav,The weather is beautiful outside today.,2.808
+human_079.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_079.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_079.wav,Please remember to save your work regularly.,3.696
+human_027.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_027.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_027.wav,Voice recognition systems are improving daily.,3.744
+ai_006.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_006.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_006.wav,Please pass the salt and pepper to me.,2.688
+ai_056.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_056.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_056.wav,Programming languages evolve over time.,3.192
+human_098.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_098.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_098.wav,Virtual reality creates amazing experiences.,4.32
+ai_084.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_084.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_084.wav,Machine learning can recognize patterns in data.,3.504
+human_043.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_043.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_043.wav,"Hello, how are you doing today?",2.952
+human_084.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_084.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_084.wav,Machine learning can recognize patterns in data.,3.792
+human_058.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_058.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_058.wav,Virtual reality creates amazing experiences.,4.752
+human_064.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_064.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_064.wav,Machine learning can recognize patterns in data.,4.224
+human_040.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_040.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_040.wav,The concert starts at exactly eight o'clock.,3.792
+ai_095.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_095.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_095.wav,I need to finish this important report.,2.856
+ai_100.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_100.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_100.wav,The concert starts at exactly eight o'clock.,3.144
+ai_031.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_031.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_031.wav,The train arrives at the station on time.,2.976
+human_037.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_037.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_037.wav,The mountains look beautiful this season.,3.336
+human_044.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_044.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_044.wav,Machine learning can recognize patterns in data.,4.128
+human_009.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_009.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_009.wav,Could you please repeat that again?,2.472
+ai_072.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_072.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_072.wav,Would you like some coffee or tea?,2.424
+human_072.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_072.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_072.wav,Would you like some coffee or tea?,2.544
+human_001.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_001.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_001.wav,The quick brown fox jumps over the lazy dog.,4.176
+ai_037.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_037.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_037.wav,The mountains look beautiful this season.,2.76
+ai_065.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_065.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_065.wav,The weather is beautiful outside today.,2.808
+human_010.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_010.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_010.wav,Natural language processing helps computers unders...,5.544
+ai_039.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_039.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_039.wav,Please remember to save your work regularly.,3.072
+human_090.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_090.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_090.wav,Natural language processing helps computers unders...,4.872
+ai_080.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_080.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_080.wav,The concert starts at exactly eight o'clock.,3.144
+human_008.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_008.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_008.wav,The sun rises early in the morning.,2.88
+ai_009.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_009.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_009.wav,Could you please repeat that again?,2.328
+ai_035.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_035.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_035.wav,I need to finish this important report.,2.856
+ai_051.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_051.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_051.wav,The train arrives at the station on time.,2.976
+ai_066.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_066.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_066.wav,Please pass the salt and pepper to me.,2.688
+ai_007.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_007.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_007.wav,Voice recognition systems are improving daily.,3.504
+human_036.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_036.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_036.wav,Programming languages evolve over time.,3.312
+human_048.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_048.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_048.wav,The sun rises early in the morning.,2.88
+human_029.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_029.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_029.wav,Could you please repeat that again?,2.4
+ai_070.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_070.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_070.wav,Natural language processing helps computers unders...,4.584
+human_062.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_062.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_062.wav,Artificial intelligence is transforming technology...,4.128
+ai_018.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_018.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_018.wav,Virtual reality creates amazing experiences.,3.936
+ai_040.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_040.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_040.wav,The concert starts at exactly eight o'clock.,3.144
+human_094.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_094.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_094.wav,The project deadline is next Friday.,3.528
+ai_044.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_044.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_044.wav,Machine learning can recognize patterns in data.,3.504
+human_092.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_092.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_092.wav,Would you like some coffee or tea?,2.448
+human_100.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_100.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_100.wav,The concert starts at exactly eight o'clock.,3.792
+human_076.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_076.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_076.wav,Programming languages evolve over time.,3.84
+human_018.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_018.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_018.wav,Virtual reality creates amazing experiences.,4.272
+human_082.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_082.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_082.wav,Artificial intelligence is transforming technology...,4.776
+ai_069.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_069.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_069.wav,Could you please repeat that again?,2.328
+ai_079.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_079.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_079.wav,Please remember to save your work regularly.,3.072
+human_093.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_093.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_093.wav,Data science requires both skills and creativity.,4.176
+ai_058.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_058.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_058.wav,Virtual reality creates amazing experiences.,3.936
+human_031.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_031.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_031.wav,The train arrives at the station on time.,3.576
+ai_087.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_087.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_087.wav,Voice recognition systems are improving daily.,3.504
+ai_029.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_029.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_029.wav,Could you please repeat that again?,2.328
+human_051.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_051.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_051.wav,The train arrives at the station on time.,3.216
+ai_073.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_073.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_073.wav,Data science requires both skills and creativity.,3.888
+ai_091.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_091.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_091.wav,The train arrives at the station on time.,2.976
+ai_050.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_050.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_050.wav,Natural language processing helps computers unders...,4.584
+ai_052.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_052.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_052.wav,Would you like some coffee or tea?,2.424
+human_002.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_002.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_002.wav,Artificial intelligence is transforming technology...,4.128
+ai_001.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_001.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_001.wav,The quick brown fox jumps over the lazy dog.,3.48
+human_063.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_063.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_063.wav,"Hello, how are you doing today?",2.856
+human_034.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_034.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_034.wav,The project deadline is next Friday.,3.528
+ai_016.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_016.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_016.wav,Programming languages evolve over time.,3.192
+ai_042.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_042.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_042.wav,Artificial intelligence is transforming technology...,3.96
+ai_086.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_086.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_086.wav,Please pass the salt and pepper to me.,2.688
+ai_003.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_003.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_003.wav,"Hello, how are you doing today?",2.448
+ai_027.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_027.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_027.wav,Voice recognition systems are improving daily.,3.504
+human_095.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_095.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_095.wav,I need to finish this important report.,2.952
+human_060.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_060.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_060.wav,The concert starts at exactly eight o'clock.,3.408
+ai_055.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_055.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_055.wav,I need to finish this important report.,2.856
+human_032.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_032.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_032.wav,Would you like some coffee or tea?,2.448
+human_065.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_065.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_065.wav,The weather is beautiful outside today.,3.0
+human_077.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_077.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_077.wav,The mountains look beautiful this season.,2.952
+ai_053.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_053.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_053.wav,Data science requires both skills and creativity.,3.888
+ai_048.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_048.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_048.wav,The sun rises early in the morning.,2.712
+ai_032.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_032.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_032.wav,Would you like some coffee or tea?,2.424
+ai_068.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_068.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_068.wav,The sun rises early in the morning.,2.712
+ai_094.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_094.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_094.wav,The project deadline is next Friday.,2.928
+ai_022.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_022.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_022.wav,Artificial intelligence is transforming technology...,3.96
+human_085.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_085.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_085.wav,The weather is beautiful outside today.,3.384
+ai_028.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_028.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_028.wav,The sun rises early in the morning.,2.712
+human_088.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_088.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_088.wav,The sun rises early in the morning.,3.288
+human_055.wav,human,train,/content/before_after_dataset/BEFORE_TRAIN/human/human_055.wav,/content/before_after_dataset/AFTER_TRAIN/train/human/human_055.wav,I need to finish this important report.,3.432
+ai_059.wav,ai,train,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_059.wav,/content/before_after_dataset/AFTER_TRAIN/train/ai/ai_059.wav,Please remember to save your work regularly.,3.072
+ai_024.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_024.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_024.wav,Machine learning can recognize patterns in data.,3.504
+ai_083.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_083.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_083.wav,"Hello, how are you doing today?",2.448
+ai_023.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_023.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_023.wav,"Hello, how are you doing today?",2.448
+ai_012.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_012.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_012.wav,Would you like some coffee or tea?,2.424
+ai_041.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_041.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_041.wav,The quick brown fox jumps over the lazy dog.,3.48
+human_096.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_096.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_096.wav,Programming languages evolve over time.,3.312
+human_023.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_023.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_023.wav,"Hello, how are you doing today?",2.52
+ai_038.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_038.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_038.wav,Virtual reality creates amazing experiences.,3.936
+human_045.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_045.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_045.wav,The weather is beautiful outside today.,3.072
+ai_030.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_030.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_030.wav,Natural language processing helps computers unders...,4.584
+human_012.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_012.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_012.wav,Would you like some coffee or tea?,2.544
+human_021.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_021.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_021.wav,The quick brown fox jumps over the lazy dog.,3.72
+ai_081.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_081.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_081.wav,The quick brown fox jumps over the lazy dog.,3.48
+ai_060.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_060.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_060.wav,The concert starts at exactly eight o'clock.,3.144
+human_071.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_071.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_071.wav,The train arrives at the station on time.,3.192
+human_061.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_061.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_061.wav,The quick brown fox jumps over the lazy dog.,4.176
+human_081.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_081.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_081.wav,The quick brown fox jumps over the lazy dog.,3.72
+ai_090.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_090.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_090.wav,Natural language processing helps computers unders...,4.584
+human_004.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_004.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_004.wav,Machine learning can recognize patterns in data.,4.224
+human_025.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_025.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_025.wav,The weather is beautiful outside today.,3.384
+ai_047.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_047.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_047.wav,Voice recognition systems are improving daily.,3.504
+human_053.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_053.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_053.wav,Data science requires both skills and creativity.,4.368
+human_038.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_038.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_038.wav,Virtual reality creates amazing experiences.,4.32
+human_026.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_026.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_026.wav,Please pass the salt and pepper to me.,2.928
+human_007.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_007.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_007.wav,Voice recognition systems are improving daily.,4.224
+ai_020.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_020.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_020.wav,The concert starts at exactly eight o'clock.,3.144
+human_011.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_011.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_011.wav,The train arrives at the station on time.,3.192
+human_035.wav,human,val,/content/before_after_dataset/BEFORE_TRAIN/human/human_035.wav,/content/before_after_dataset/AFTER_TRAIN/val/human/human_035.wav,I need to finish this important report.,2.952
+ai_036.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_036.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_036.wav,Programming languages evolve over time.,3.192
+ai_097.wav,ai,val,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_097.wav,/content/before_after_dataset/AFTER_TRAIN/val/ai/ai_097.wav,The mountains look beautiful this season.,2.76
+human_099.wav,human,test,/content/before_after_dataset/BEFORE_TRAIN/human/human_099.wav,/content/before_after_dataset/AFTER_TRAIN/test/human/human_099.wav,Please remember to save your work regularly.,3.384
+human_030.wav,human,test,/content/before_after_dataset/BEFORE_TRAIN/human/human_030.wav,/content/before_after_dataset/AFTER_TRAIN/test/human/human_030.wav,Natural language processing helps computers unders...,4.872
+ai_098.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_098.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_098.wav,Virtual reality creates amazing experiences.,3.936
+ai_045.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_045.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_045.wav,The weather is beautiful outside today.,2.808
+human_067.wav,human,test,/content/before_after_dataset/BEFORE_TRAIN/human/human_067.wav,/content/before_after_dataset/AFTER_TRAIN/test/human/human_067.wav,Voice recognition systems are improving daily.,4.224
+human_024.wav,human,test,/content/before_after_dataset/BEFORE_TRAIN/human/human_024.wav,/content/before_after_dataset/AFTER_TRAIN/test/human/human_024.wav,Machine learning can recognize patterns in data.,3.792
+ai_092.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_092.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_092.wav,Would you like some coffee or tea?,2.424
+ai_002.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_002.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_002.wav,Artificial intelligence is transforming technology...,3.96
+human_087.wav,human,test,/content/before_after_dataset/BEFORE_TRAIN/human/human_087.wav,/content/before_after_dataset/AFTER_TRAIN/test/human/human_087.wav,Voice recognition systems are improving daily.,3.744
+human_057.wav,human,test,/content/before_after_dataset/BEFORE_TRAIN/human/human_057.wav,/content/before_after_dataset/AFTER_TRAIN/test/human/human_057.wav,The mountains look beautiful this season.,3.12
+ai_013.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_013.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_013.wav,Data science requires both skills and creativity.,3.888
+ai_046.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_046.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_046.wav,Please pass the salt and pepper to me.,2.688
+ai_085.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_085.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_085.wav,The weather is beautiful outside today.,2.808
+human_020.wav,human,test,/content/before_after_dataset/BEFORE_TRAIN/human/human_020.wav,/content/before_after_dataset/AFTER_TRAIN/test/human/human_020.wav,The concert starts at exactly eight o'clock.,3.432
+human_091.wav,human,test,/content/before_after_dataset/BEFORE_TRAIN/human/human_091.wav,/content/before_after_dataset/AFTER_TRAIN/test/human/human_091.wav,The train arrives at the station on time.,3.576
+human_073.wav,human,test,/content/before_after_dataset/BEFORE_TRAIN/human/human_073.wav,/content/before_after_dataset/AFTER_TRAIN/test/human/human_073.wav,Data science requires both skills and creativity.,4.704
+human_046.wav,human,test,/content/before_after_dataset/BEFORE_TRAIN/human/human_046.wav,/content/before_after_dataset/AFTER_TRAIN/test/human/human_046.wav,Please pass the salt and pepper to me.,3.24
+ai_071.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_071.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_071.wav,The train arrives at the station on time.,2.976
+ai_004.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_004.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_004.wav,Machine learning can recognize patterns in data.,3.504
+ai_067.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_067.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_067.wav,Voice recognition systems are improving daily.,3.504
+ai_096.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_096.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_096.wav,Programming languages evolve over time.,3.192
+ai_063.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_063.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_063.wav,"Hello, how are you doing today?",2.448
+ai_064.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_064.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_064.wav,Machine learning can recognize patterns in data.,3.504
+human_069.wav,human,test,/content/before_after_dataset/BEFORE_TRAIN/human/human_069.wav,/content/before_after_dataset/AFTER_TRAIN/test/human/human_069.wav,Could you please repeat that again?,2.472
+human_074.wav,human,test,/content/before_after_dataset/BEFORE_TRAIN/human/human_074.wav,/content/before_after_dataset/AFTER_TRAIN/test/human/human_074.wav,The project deadline is next Friday.,3.168
+ai_057.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_057.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_057.wav,The mountains look beautiful this season.,2.76
+ai_033.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_033.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_033.wav,Data science requires both skills and creativity.,3.888
+ai_017.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_017.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_017.wav,The mountains look beautiful this season.,2.76
+ai_049.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_049.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_049.wav,Could you please repeat that again?,2.328
+ai_074.wav,ai,test,/content/before_after_dataset/BEFORE_TRAIN/ai/ai_074.wav,/content/before_after_dataset/AFTER_TRAIN/test/ai/ai_074.wav,The project deadline is next Friday.,2.928

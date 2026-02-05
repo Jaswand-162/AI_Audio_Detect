@@ -1,0 +1,16 @@
+{
+  "title": "AI vs Human Voice Dataset (Before/After Split)",
+  "id": "your-username/ai-human-voice-before-after",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "description": "Voice dataset with BEFORE_TRAIN (raw) and AFTER_TRAIN (split) folders. Perfect for ML pipeline demonstrations.",
+  "keywords": [
+    "audio-classification",
+    "voice-detection",
+    "machine-learning"
+  ],
+  "isPrivate": false
+}
