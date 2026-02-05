@@ -40,7 +40,7 @@ wheels/
 Thumbs.db
 
 # Project specific
-*.pkl
-*.joblib
-model.pkl
+# *.pkl  # Keep trained models in repo
+# *.joblib  # Keep joblib files
+# model.pkl  # Keep model file
 test_audio.wav

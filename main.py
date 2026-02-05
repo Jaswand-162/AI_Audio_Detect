@@ -54,11 +54,12 @@ def verify_api_key(api_key: str = Depends(api_key_header)):
 # Global variables for model and encoder
 model = None
 encoder = None
+scaler = None
 feature_columns = None
 
 def load_model():
-    """Load the trained model and encoder"""
-    global model, encoder, feature_columns
+    """Load the trained model, encoder, and scaler"""
+    global model, encoder, scaler, feature_columns
     
     try:
         # Try to load pre-trained model if available
@@ -66,55 +67,33 @@ def load_model():
             with open("model.pkl", "rb") as f:
                 model = pickle.load(f)
             logger.info("Loaded pre-trained model from model.pkl")
-        else:
-            # Train on the fly from features CSV if available
-            if os.path.exists("train_features.csv"):
-                df = pd.read_csv("train_features.csv")
-                X = df.drop("label", axis=1)
-                y = df["label"]
-                
-                feature_columns = X.columns.tolist()
-                
-                encoder = LabelEncoder()
-                y = encoder.fit_transform(y)
-                
-                model = SVC(kernel="rbf", probability=True)
-                model.fit(X, y)
-                
-                # Save model for future use
-                with open("model.pkl", "wb") as f:
-                    pickle.dump(model, f)
-                
-                logger.info("Trained new model from train_features.csv")
-            else:
-                logger.warning("No model or training data found")
-                return False
         
-        # Load or create encoder
-        if encoder is None and os.path.exists("train_features.csv"):
-            df = pd.read_csv("train_features.csv")
-            y = df["label"]
-            encoder = LabelEncoder()
-            encoder.fit_transform(y)
+        # Load scaler
+        if os.path.exists("scaler.pkl"):
+            with open("scaler.pkl", "rb") as f:
+                scaler = pickle.load(f)
+            logger.info("Loaded scaler from scaler.pkl")
         
+        # Load encoder
+        if os.path.exists("encoder.pkl"):
+            with open("encoder.pkl", "rb") as f:
+                encoder = pickle.load(f)
+            logger.info("Loaded encoder from encoder.pkl")
+        
+        # Load feature columns for reference
         if feature_columns is None and os.path.exists("train_features.csv"):
             df = pd.read_csv("train_features.csv")
             feature_columns = df.drop("label", axis=1).columns.tolist()
         
-        return True
+        if model is not None and scaler is not None:
+            return True
+        else:
+            logger.warning("Model or scaler not fully loaded")
+            return False
+            
     except Exception as e:
         logger.error(f"Error loading model: {str(e)}")
         return False
-
-def extract_mfcc_features(audio_data, sr=16000, n_mfcc=40):
-    """Extract MFCC features from audio data"""
-    try:
-        mfcc = librosa.feature.mfcc(y=audio_data, sr=sr, n_mfcc=n_mfcc)
-        mfcc_mean = np.mean(mfcc.T, axis=0)
-        return mfcc_mean
-    except Exception as e:
-        logger.error(f"Error extracting MFCC features: {str(e)}")
-        raise
 
 @app.on_event("startup")
 async def startup_event():
@@ -122,6 +101,77 @@ async def startup_event():
     logger.info("Starting up and loading model...")
     if not load_model():
         logger.warning("Could not load model on startup. Will attempt to load on first request.")
+
+def extract_advanced_features(audio_data, sr=16000):
+    """
+    Extract comprehensive audio features to distinguish AI from human voice
+    Returns: numpy array of 200+ features
+    """
+    try:
+        # Remove silence
+        S = librosa.feature.melspectrogram(y=audio_data, sr=sr)
+        S_db = librosa.power_to_db(S, ref=np.max)
+        non_silent_frames = np.where(np.mean(S_db, axis=0) > -40)[0]
+        if len(non_silent_frames) > 0:
+            audio_data = audio_data[non_silent_frames[0]*512:(non_silent_frames[-1]+1)*512]
+        
+        if len(audio_data) == 0:
+            raise ValueError("Audio data is empty after silence removal")
+        
+        features = []
+        
+        # 1. MFCC Features (Mean, Std) - 80 features
+        mfcc = librosa.feature.mfcc(y=audio_data, sr=sr, n_mfcc=40)
+        features.extend(np.mean(mfcc.T, axis=0))
+        features.extend(np.std(mfcc.T, axis=0))
+        
+        # 2. MFCC Delta (velocity) - 80 features
+        delta = librosa.feature.delta(mfcc)
+        features.extend(np.mean(delta.T, axis=0))
+        features.extend(np.std(delta.T, axis=0))
+        
+        # 3. Spectral Features - 20 features
+        spec_centroid = librosa.feature.spectral_centroid(y=audio_data, sr=sr)[0]
+        features.append(np.mean(spec_centroid))
+        features.append(np.std(spec_centroid))
+        
+        spec_rolloff = librosa.feature.spectral_rolloff(y=audio_data, sr=sr)[0]
+        features.append(np.mean(spec_rolloff))
+        features.append(np.std(spec_rolloff))
+        
+        zcr = librosa.feature.zero_crossing_rate(audio_data)[0]
+        features.append(np.mean(zcr))
+        features.append(np.std(zcr))
+        
+        # 4. Chroma Features - 24 features
+        chroma = librosa.feature.chroma_stft(y=audio_data, sr=sr)
+        features.extend(np.mean(chroma.T, axis=0))
+        features.extend(np.std(chroma.T, axis=0))
+        
+        # 5. Mel-spectrogram Features - 40 features
+        mel_spec = librosa.feature.melspectrogram(y=audio_data, sr=sr, n_mels=20)
+        features.extend(np.mean(mel_spec.T, axis=0))
+        features.extend(np.std(mel_spec.T, axis=0))
+        
+        # 6. Tempogram (Rhythm) - 4 features
+        onset_env = librosa.onset.onset_strength(y=audio_data, sr=sr)
+        features.append(np.mean(onset_env))
+        features.append(np.std(onset_env))
+        features.append(np.max(onset_env))
+        features.append(np.min(onset_env))
+        
+        # 7. RMS Energy - 4 features
+        rms = librosa.feature.rms(y=audio_data)[0]
+        features.append(np.mean(rms))
+        features.append(np.std(rms))
+        features.append(np.max(rms))
+        features.append(np.min(rms))
+        
+        return np.array(features)
+    except Exception as e:
+        logger.error(f"Error extracting advanced features: {str(e)}")
+        raise
+
 
 @app.get("/")
 async def root():
@@ -177,23 +227,22 @@ async def predict_voice(
         # Load audio from bytes
         audio, sr = librosa.load(io.BytesIO(contents), sr=16000)
         
-        # Extract MFCC features
-        mfcc_features = extract_mfcc_features(audio, sr=16000)
+        # Extract advanced features
+        advanced_features = extract_advanced_features(audio, sr=16000)
         
-        # Create DataFrame with proper column names
-        if feature_columns:
-            features_df = pd.DataFrame([mfcc_features], columns=feature_columns)
+        # Scale features using the trained scaler
+        if scaler is not None:
+            features_scaled = scaler.transform([advanced_features])
         else:
-            # Fallback: assume 40 MFCC coefficients
-            features_df = pd.DataFrame([mfcc_features])
+            features_scaled = [advanced_features]
         
         # Make prediction
-        prediction = model.predict(features_df)[0]
+        prediction = model.predict(features_scaled)[0]
         
-        # Get confidence scores if model supports probability
-        if hasattr(model, 'decision_function'):
-            confidence_scores = model.decision_function(features_df)[0]
-            confidence = float(abs(confidence_scores))
+        # Get probability scores for confidence
+        if hasattr(model, 'predict_proba'):
+            probabilities = model.predict_proba(features_scaled)[0]
+            confidence = float(max(probabilities))
         else:
             confidence = None
         
@@ -256,14 +305,15 @@ async def predict_voice_batch(
                     continue
                 
                 audio, sr = librosa.load(io.BytesIO(contents), sr=16000)
-                mfcc_features = extract_mfcc_features(audio, sr=16000)
+                advanced_features = extract_advanced_features(audio, sr=16000)
                 
-                if feature_columns:
-                    features_df = pd.DataFrame([mfcc_features], columns=feature_columns)
+                # Scale features
+                if scaler is not None:
+                    features_scaled = scaler.transform([advanced_features])
                 else:
-                    features_df = pd.DataFrame([mfcc_features])
+                    features_scaled = [advanced_features]
                 
-                prediction = model.predict(features_df)[0]
+                prediction = model.predict(features_scaled)[0]
                 label_map = {0: "AI Voice", 1: "Human Voice"}
                 predicted_label = label_map.get(int(prediction), "Unknown")
                 
