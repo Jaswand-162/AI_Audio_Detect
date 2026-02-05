@@ -1,5 +1,6 @@
 import os
 import io
+import base64
 import librosa
 import numpy as np
 import pandas as pd
@@ -9,6 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import APIKeyHeader
 from sklearn.svm import SVC
 from sklearn.preprocessing import LabelEncoder
+from pydantic import BaseModel
 from dotenv import load_dotenv
 import pickle
 import logging
@@ -50,6 +52,12 @@ def verify_api_key(api_key: str = Depends(api_key_header)):
             detail="Invalid or missing API key"
         )
     return api_key
+
+# Pydantic model for JSON body requests
+class AudioPredictionRequest(BaseModel):
+    audio_base64: str
+    language: str = "en"
+    audio_format: str = "wav"
 
 # Global variables for model and encoder
 model = None
@@ -195,16 +203,23 @@ async def health_check():
 
 @app.post("/predict")
 async def predict_voice(
-    file: UploadFile = File(...),
+    request: AudioPredictionRequest,
     api_key: str = Depends(verify_api_key)
 ):
     """
-    Predict whether audio is AI or Human voice
+    Predict whether audio is AI or Human voice from base64-encoded audio data
+    
+    Request body:
+    {
+        "audio_base64": "base64_encoded_audio_string",
+        "language": "en",
+        "audio_format": "wav"
+    }
     
     Returns:
     - prediction: "AI Voice" or "Human Voice"
-    - confidence: probability score (0-1)
-    - label_encoder_mapping: {"0": "AI Voice", "1": "Human Voice"}
+    - confidence_score: probability score (0-1)
+    - label_mapping: {"0": "AI Voice", "1": "Human Voice"}
     """
     try:
         # Ensure model is loaded
@@ -215,17 +230,23 @@ async def predict_voice(
                     detail="Model not available. Please ensure train_features.csv exists."
                 )
         
-        # Read audio file
-        contents = await file.read()
-        
-        if not contents:
+        # Decode base64 audio
+        try:
+            audio_bytes = base64.b64decode(request.audio_base64)
+        except Exception as e:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Empty file uploaded"
+                detail=f"Invalid base64 encoding: {str(e)}"
+            )
+        
+        if not audio_bytes:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Empty audio data"
             )
         
         # Load audio from bytes
-        audio, sr = librosa.load(io.BytesIO(contents), sr=16000)
+        audio, sr = librosa.load(io.BytesIO(audio_bytes), sr=16000)
         
         # Extract advanced features
         advanced_features = extract_advanced_features(audio, sr=16000)
@@ -250,7 +271,7 @@ async def predict_voice(
         label_map = {0: "AI Voice", 1: "Human Voice"}
         predicted_label = label_map.get(int(prediction), "Unknown")
         
-        logger.info(f"Prediction made: {predicted_label}")
+        logger.info(f"Prediction made: {predicted_label} (confidence: {confidence})")
         
         return {
             "prediction": predicted_label,
@@ -268,6 +289,8 @@ async def predict_voice(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail=f"Invalid audio file: {str(e)}"
         )
+    except HTTPException:
+        raise
     except Exception as e:
         logger.error(f"Prediction error: {str(e)}")
         raise HTTPException(
