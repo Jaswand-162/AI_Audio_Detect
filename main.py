@@ -36,8 +36,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# API Key setup
-API_KEY = os.getenv("API_KEY", "your-secret-api-key-change-this")
+# API Key setup - MUST be set via environment variable
+API_KEY = os.getenv("API_KEY")
+if not API_KEY:
+    raise ValueError("API_KEY environment variable is not set. Please set it before starting the API.")
 api_key_header = APIKeyHeader(name="X-API-Key")
 
 def verify_api_key(api_key: str = Depends(api_key_header)):
